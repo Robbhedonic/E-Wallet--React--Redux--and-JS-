@@ -15,11 +15,12 @@ const Home = () => {
       <p>E-Wallet is the easiest wat to have sav all your card and also save space and make you life even more easy</p>
       </div>
       <div>
-        <img src="/image/app-ewallet.png" alt="" />
+        <img className='portal-img' src="/image/app-ewallet.png" alt="" />
       </div>
       </div>
       <div className='cardList-home'>
-    <h1>Your Card List</h1>
+        
+    <h1 className='card-list-tittle'>Your Card List</h1>
       <CardList setCardToEdit={setCardToEdit} />
       </div>
       
