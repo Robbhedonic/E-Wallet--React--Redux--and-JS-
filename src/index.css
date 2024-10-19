@@ -271,7 +271,7 @@ button {
   color: rgb(255, 255, 255);
   font-weight: 800;
   letter-spacing: 10px;
-  border: solid green 1px;
+  /* border: solid green 1px; */
   line-height: 0px;
   margin: 10px 10px;
   height: 20px;
@@ -428,18 +428,44 @@ button {
   justify-content: center;
   flex-wrap: nowrap;
   position: relative;
-  border: 2px yellow solid;
+  /* border: 2px yellow solid; */
   margin: 10px;
   
 }
 .card-list{
   display: flex;
   flex-direction: column;
+ 
+}
+.card-detail-main{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.card-detail{
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
+  border: solid 2px yellow;
+  width: 400px;
+  background: white;
+  color: black;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0px 4px 0px 4px rgba(0, 0, 0, 0.4);
+}
+.card-detail p{
+  border: 1px  grey solid ;
+  padding: 6px;
+  box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.521);
 }
 
-
-
-
+main{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 .add-card{
   width: 200px;
   justify-content: center;

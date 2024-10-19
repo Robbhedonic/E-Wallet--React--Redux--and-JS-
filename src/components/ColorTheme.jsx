@@ -7,12 +7,12 @@ import React, { useState, useEffect } from 'react';
 const ColorTheme = () => {
   // Define un array con las opciones de colores específicos
   const colorOptions = [
-    { name: 'Wine', color: 'rgb(128, 0, 32)' },
-    { name: 'black', color: 'rgb(0, 0, 0)' },
-    { name: 'blue', color: 'rgb(0, 0, 255)' },
-    { name: 'little light gren', color: 'rgb(0, 128, 0)' },
-    { name: 'turquesa', color: 'rgb(0, 206, 209)' },
-    { name: 'grey', color: 'rgb(128, 128, 128)' },
+    { name: 'Pink', color: '#F2AFEF' },
+    { name: 'Black', color: 'rgb(0, 0, 0)' },
+    { name: 'Green', color: '#059212' },
+    { name: 'Dark Grey Green', color: '#1A3636' },
+    { name: 'Green light blue', color: '#069A8E' },
+    { name: 'Ligth Purple', color: '#742DD2' },
   ];
 
   // Obtén el color almacenado en localStorage o usa el color predeterminado
