@@ -373,10 +373,14 @@ button {
   font-style: italic;
   font-weight: 900;
 }
-@media (max-width: 470px) {
+@media (max-width: 535px) {
    .portal-img{
     margin-top: 20px;
-    width: 200px;
+    width: 100px;
+    border: solid 2px yellow;
+   }
+   .logo-header {
+    width: 60px;
    }
   .cover-website-text h1 {
     font-size: 40px;
@@ -395,6 +399,7 @@ button {
    .portal-img{
     margin-top: 50px;
     width: 400px;
+    
    }
   .cover-website-text h1 {
     font-size: 40px;
@@ -410,7 +415,7 @@ button {
 
 }
 
-@media (max-width: 800px) {
+@media  (max-width: 800px) {
   .portal-img{
     margin-top: 100px;
     width: 500px;
